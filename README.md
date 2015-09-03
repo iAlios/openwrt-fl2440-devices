@@ -2,13 +2,15 @@
 OpenWrt的feeds软件源device
 ===
 ---------------------------------
+本仓储源自于官方仓储，仅仅只是为了添加对 fl2440 bootloader 支持而进行创建的，供学习使用而已。
+
+
 SVN仓：[svn://svn.openwrt.org.cn/dreambox/feeds/device](https://dev.openwrt.org.cn/browser/feeds/device)
 
 GIT仓：[git://github.com/openosom/device](https://github.com/openosom/device)
 
 
 * 软件源device：之[编译uboot/qemu/dnw2等相关说明](https://dev.openwrt.org.cn/wiki/DevelopmentIndex)
-* <img src="http://blogimg.chinaunix.net/blog/upfile2/090127093601.jpg" alt="mini2440运行uboot" width="400" height="400"/>
 
 
 ### uboot-s3c24xx
