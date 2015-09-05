@@ -16,7 +16,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=DNW2 for USB Download
-  CATEGORY:=Device
+  CATEGORY:=Development
   SUBMENU:=
   SECTION:=utils
   DEPENDS:=
