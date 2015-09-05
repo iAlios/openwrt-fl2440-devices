@@ -22,7 +22,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=for fs2410
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
   DEPENDS:=@TARGET_s3c24xx @BROKEN

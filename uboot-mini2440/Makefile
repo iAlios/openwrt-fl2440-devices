@@ -24,10 +24,10 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=for mini2440(tekkaman)
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
-  DEPENDS:=@TARGET_s3c24xx @BROKEN
+  DEPENDS:=@TARGET_s3c24xx
   URL:=http://www.denx.de/wiki/U-Boot
 endef
 

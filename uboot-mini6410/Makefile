@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=for mini6410(tekkaman)
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
   DEPENDS:=@TARGET_s3c64xx

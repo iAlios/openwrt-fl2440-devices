@@ -26,7 +26,7 @@ endef
 
 define Package/$(PKG_NAME)
   TITLE:=for s3c64xx boards(mini6410 gec6410 ...)
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
   DEPENDS:=@TARGET_s3c64xx

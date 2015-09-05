@@ -26,7 +26,7 @@ endef
 
 define Package/$(PKG_NAME)
   TITLE:=s5pc1xx/s5pv2xx soc(mini210 tiny210...)
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
   DEPENDS:=@TARGET_s5pc1xx

@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=Uboot for OpenMoko(GTA01/GTA02)
-  CATEGORY:=Device
+  CATEGORY:=Boot Loaders
   SUBMENU:=
   SECTION:=boot
   DEPENDS:=@TARGET_openmoko
