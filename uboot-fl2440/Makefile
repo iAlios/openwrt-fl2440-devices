@@ -25,10 +25,9 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   TITLE:=for fl2440(iAlios)
-  CATEGORY:=Device
-  SUBMENU:=
+  CATEGORY:=Boot Loaders
   SECTION:=boot
-  DEPENDS:=@TARGET_s3c24xx @BROKEN
+  DEPENDS:=@TARGET_s3c24xx 
   URL:=http://www.denx.de/wiki/U-Boot
 endef
 
